@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CoilCategoryActivity"
+    android:orientation="vertical"
+    >
+<include
+    layout="@layout/toolbar"
+    android:id="@+id/toolbar"
+    />
+<TextView
+    android:id="@+id/coilName"
+    android:textSize="26dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Name"
+    android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bigImage"
+            android:layout_width="210dp"
+            android:layout_height="210dp" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <TextView
+             android:paddingStart="10dp"
+             android:text="Сопротивление на пару:"
+             android:paddingTop="3dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+         <TextView
+             android:paddingStart="10dp"
+             android:id="@+id/coilOhm"
+             android:textSize="22dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="ohm"
+             android:textStyle="italic"
+             />
+         <TextView
+             android:paddingStart="10dp"
+             android:paddingTop="10dp"
+             android:text="Цена за пару:"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+         <TextView
+             android:id="@+id/coilPrice"
+             android:textSize="22dp"
+
+             android:paddingStart="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="price"
+             android:textStyle="italic"
+             />
+         <TextView
+             android:paddingStart="10dp"
+             android:paddingTop="10dp"
+             android:text="Материалы"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+         <TextView
+             android:id="@+id/coilMaterial"
+             android:textSize="18dp"
+             android:text="mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+             android:paddingStart="10dp"
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/description"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="описание"/>
+</LinearLayout>

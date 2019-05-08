@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HotCoils</string>
+    <string name="top_logo">Hot_coils_head</string>
+    <string name="no_image">no_image</string>
+    <string name="coil">coil_image</string>
+    <string name="coil_category">Coils</string>
+
+    <string-array name="options">
+        <item>Coils</item>
+        <item>Service</item>
+        <item>Contacts</item>
+
+    </string-array>
+</resources>
